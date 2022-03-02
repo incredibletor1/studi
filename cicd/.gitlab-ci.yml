@@ -1,0 +1,17 @@
+include:
+  - project: 'studi.devops/gitlab-cicd-templates'
+    ref: master
+    file: 'versioning/default.gitlab-ci.yml'
+
+  - project: 'studi.devops/gitlab-cicd-templates'
+    ref: master
+    file: 'build/dotnet/linux/default.gitlab-ci.yml'
+
+  - project: 'studi.devops/gitlab-cicd-templates'
+    ref: master
+    file: 'deploy/app/default.gitlab-cd.yml'
+  
+build project Studi.Proctoring.Backoffice-Api:
+  extends: .build dotnet
+  variables:    
+    project_path: 'src/Studi.Proctoring.BackOffice-Api/Studi.Proctoring.BackOffice-Api.csproj'
