@@ -1,3 +1,0 @@
-# Studi.Api.Proctoring
-
-

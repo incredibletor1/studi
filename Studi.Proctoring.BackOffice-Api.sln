@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{995A23E0-2AF3-48B2-8076-BF43371FC83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studi.Proctoring.BackOffice-Api", "src\Studi.Proctoring.BackOffice-Api\Studi.Proctoring.BackOffice-Api.csproj", "{4F7101B5-1891-470C-A732-8DC394AC4D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F7101B5-1891-470C-A732-8DC394AC4D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7101B5-1891-470C-A732-8DC394AC4D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7101B5-1891-470C-A732-8DC394AC4D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7101B5-1891-470C-A732-8DC394AC4D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F7101B5-1891-470C-A732-8DC394AC4D5C} = {995A23E0-2AF3-48B2-8076-BF43371FC83B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1E853E9-9709-4008-AE20-C95DF8247DA2}
+	EndGlobalSection
+EndGlobal
